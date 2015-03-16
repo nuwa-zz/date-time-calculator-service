@@ -1,0 +1,23 @@
+//--------------------------------------------------------------------------
+Array
+(
+    [params] => {"fromDateTime":"2014-05-01 03:00","toDateTime":"2014-05-12 03:00","outputUnit":"null","fromTimezone":"Africa/Abidjan","toTimezone":"Africa/Bamako"}
+    [fromDateTime] => 2014-05-01 03:00
+    [toDateTime] => 2014-05-12 03:00
+    [outputUnit] => null
+    [fromTimezone] => Africa/Abidjan
+    [toTimezone] => Africa/Bamako
+)
+
+{"fromDateTime":"2014-05-01 03:00","toDateTime":"2014-05-12 03:00","outputUnit":"null","fromTimezone":"Africa/Abidjan","toTimezone":"Africa/Bamako"}
+Inside getData -- stdClass Object
+(
+    [fromDateTime] => 2014-05-01 03:00
+    [toDateTime] => 2014-05-12 03:00
+    [outputUnit] => null
+    [fromTimezone] => Africa/Abidjan
+    [toTimezone] => Africa/Bamako
+)
+
+Got time zone and using that
+{"success":true,"total":3,"data":[["Number of <strong>days<\/strong>.","11"],["Number of <strong>weekdays<\/strong>.","8"],["Number of <strong>complete weeks<\/strong>","1"]]}
